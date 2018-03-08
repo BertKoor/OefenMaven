@@ -6,6 +6,9 @@ Aanwijzingen:
 
  * Er is een dependency met `commons-lang3.jar` uit groep `org.apache.commons`.
    Kijk op http://repo2.maven.org/maven2/org/apache/commons/commons-lang3/ welke versies hiervan zijn.
+ * Er is ook een dependency met JUnit die de unit tests voor ons uitvoert. 
+   Je kunt beginnen met het dependency-blok te kopieren uit het MyFirstPony project, 
+   echter hier hebben we de annotation-driven implementatie nodig die sinds JUnit versie 4 bestaat.
 
 Variaties:
  * Probeer eerst een zo klein mogelijke pom te maken
