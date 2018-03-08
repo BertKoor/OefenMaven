@@ -17,4 +17,6 @@ Variaties:
  * In de unit test file `/src/test/java/nl.ordina/HelloMavenTest.java` staan een aantal unit tests nog op commentaar.
     Activeer ze, en de build zal falen. Dus probeer je build maar weer te repareren...
  * Probeer de jar self-executing te maken door met de maven-jar-plugin de main class in het manifest te vermelden.
+ * Als je de jar probeert uit te voeren, zal je merken dat de dependency naar de `commons-lang.jar` niet in onze jar is ingepakt.
+   Probeer de jar **with dependencies** te laten bouwen door de `maven-archive-plugin`.
  
