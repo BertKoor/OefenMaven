@@ -11,5 +11,7 @@ Variaties:
  * Probeer eerst een zo klein mogelijke pom te maken
  * Probeer ook eens een zo groot mogelijke pom te maken. 
    Google naar `maven pom reference`  voor inspiratie.
+ * In de unit test file `/src/test/java/nl.ordina/HelloMavenTest.java` staan een aantal unit tests nog op commentaar.
+    Activeer ze, en de build zal falen. Dus probeer je build maar weer te repareren...
  * Probeer de jar self-executing te maken door met de maven-jar-plugin de main class in het manifest te vermelden.
  
